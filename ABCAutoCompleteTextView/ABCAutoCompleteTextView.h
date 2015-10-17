@@ -10,7 +10,9 @@
 
 @interface ABCAutoCompleteTextView : UITextView
 
+//Data Arrays
 @property (nonatomic, strong) NSArray *usernamesArray;
 @property (nonatomic, strong) NSArray *hashtagsArray;
+
 
 @end

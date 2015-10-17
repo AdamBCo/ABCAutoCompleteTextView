@@ -10,7 +10,6 @@
 		87CBE2641BD20924003A161A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE2631BD20924003A161A /* main.m */; };
 		87CBE2671BD20924003A161A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE2661BD20924003A161A /* AppDelegate.m */; };
 		87CBE26A1BD20924003A161A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE2691BD20924003A161A /* ViewController.m */; };
-		87CBE26D1BD20924003A161A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CBE26B1BD20924003A161A /* Main.storyboard */; };
 		87CBE26F1BD20924003A161A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CBE26E1BD20924003A161A /* Assets.xcassets */; };
 		87CBE2721BD20924003A161A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CBE2701BD20924003A161A /* LaunchScreen.storyboard */; };
 		87CBE27D1BD20924003A161A /* ABCAutoCompleteTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE27C1BD20924003A161A /* ABCAutoCompleteTextViewTests.m */; };
@@ -42,7 +41,6 @@
 		87CBE2661BD20924003A161A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		87CBE2681BD20924003A161A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		87CBE2691BD20924003A161A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		87CBE26C1BD20924003A161A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87CBE26E1BD20924003A161A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87CBE2711BD20924003A161A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87CBE2731BD20924003A161A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,9 +106,7 @@
 				87CBE2661BD20924003A161A /* AppDelegate.m */,
 				87CBE2681BD20924003A161A /* ViewController.h */,
 				87CBE2691BD20924003A161A /* ViewController.m */,
-				87CBE2951BD209B0003A161A /* ABCAutoCompleteTextView.h */,
-				87CBE2961BD209B0003A161A /* ABCAutoCompleteTextView.m */,
-				87CBE26B1BD20924003A161A /* Main.storyboard */,
+				87CBE2981BD21647003A161A /* ABCAutoCompleteTextView */,
 				87CBE26E1BD20924003A161A /* Assets.xcassets */,
 				87CBE2701BD20924003A161A /* LaunchScreen.storyboard */,
 				87CBE2731BD20924003A161A /* Info.plist */,
@@ -143,6 +139,15 @@
 				87CBE2891BD20924003A161A /* Info.plist */,
 			);
 			path = ABCAutoCompleteTextViewUITests;
+			sourceTree = "<group>";
+		};
+		87CBE2981BD21647003A161A /* ABCAutoCompleteTextView */ = {
+			isa = PBXGroup;
+			children = (
+				87CBE2951BD209B0003A161A /* ABCAutoCompleteTextView.h */,
+				87CBE2961BD209B0003A161A /* ABCAutoCompleteTextView.m */,
+			);
+			name = ABCAutoCompleteTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +255,6 @@
 			files = (
 				87CBE2721BD20924003A161A /* LaunchScreen.storyboard in Resources */,
 				87CBE26F1BD20924003A161A /* Assets.xcassets in Resources */,
-				87CBE26D1BD20924003A161A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +318,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		87CBE26B1BD20924003A161A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87CBE26C1BD20924003A161A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		87CBE2701BD20924003A161A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
