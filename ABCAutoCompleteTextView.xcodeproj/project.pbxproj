@@ -15,6 +15,7 @@
 		87CBE2721BD20924003A161A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CBE2701BD20924003A161A /* LaunchScreen.storyboard */; };
 		87CBE27D1BD20924003A161A /* ABCAutoCompleteTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE27C1BD20924003A161A /* ABCAutoCompleteTextViewTests.m */; };
 		87CBE2881BD20924003A161A /* ABCAutoCompleteTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE2871BD20924003A161A /* ABCAutoCompleteTextViewUITests.m */; };
+		87CBE2971BD209B0003A161A /* ABCAutoCompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CBE2961BD209B0003A161A /* ABCAutoCompleteTextView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		87CBE2831BD20924003A161A /* ABCAutoCompleteTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABCAutoCompleteTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CBE2871BD20924003A161A /* ABCAutoCompleteTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCAutoCompleteTextViewUITests.m; sourceTree = "<group>"; };
 		87CBE2891BD20924003A161A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CBE2951BD209B0003A161A /* ABCAutoCompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCAutoCompleteTextView.h; sourceTree = "<group>"; };
+		87CBE2961BD209B0003A161A /* ABCAutoCompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCAutoCompleteTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				87CBE2661BD20924003A161A /* AppDelegate.m */,
 				87CBE2681BD20924003A161A /* ViewController.h */,
 				87CBE2691BD20924003A161A /* ViewController.m */,
+				87CBE2951BD209B0003A161A /* ABCAutoCompleteTextView.h */,
+				87CBE2961BD209B0003A161A /* ABCAutoCompleteTextView.m */,
 				87CBE26B1BD20924003A161A /* Main.storyboard */,
 				87CBE26E1BD20924003A161A /* Assets.xcassets */,
 				87CBE2701BD20924003A161A /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CBE2971BD209B0003A161A /* ABCAutoCompleteTextView.m in Sources */,
 				87CBE26A1BD20924003A161A /* ViewController.m in Sources */,
 				87CBE2671BD20924003A161A /* AppDelegate.m in Sources */,
 				87CBE2641BD20924003A161A /* main.m in Sources */,
