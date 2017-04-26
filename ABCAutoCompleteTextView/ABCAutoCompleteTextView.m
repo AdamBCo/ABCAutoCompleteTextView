@@ -59,8 +59,8 @@
     
     NSString *wordTyped = [self textInRange:textRange];
     
-    NSArray *wordsInSentence = [self.text componentsSeparatedByString:@" "];
-    
+    //NSArray *wordsInSentence = [self.text componentsSeparatedByString:@" "];(This is Bug, according to me)
+    NSArray *wordsInSentence = [self.text componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
     int indexInSavedArray = 0;
     
